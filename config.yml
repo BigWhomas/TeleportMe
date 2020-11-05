@@ -1,0 +1,301 @@
+#    _______   _                       _     __  __         
+#   |__   __| | |                     | |   |  \/  |       
+#      | | ___| | ___ _ __   ___  _ __| |_  | \  / | ___    
+#      | |/ _ \ |/ _ \ '_ \ / _ \| '__| __| | |\/| |/ _ \ 
+#      | |  __/ |  __/ |_) | (_) | |  | |_  | |  | |  __/     
+#      |_|\___|_|\___| .__/ \___/|_|   \__| |_|  |_|\___|     
+#                    | |                                                      
+#                    |_|                                                      
+
+# v1.8 
+
+######################
+####Customization##### 
+######################
+
+# Colours can be found here:
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/ChatColor.html
+
+# Changes plugins prefix in chat
+
+Prefix: "[TPME] "
+
+# Changes colour of plugins prefix
+
+PrefixHex: "WHITE"
+
+# Changes colour of chat message
+
+MessageColour: "GREEN"
+
+# Enables The Use Of A Custom Radius
+
+CustomDistance: true
+
+# Set Maximum Radius For Random Teleport
+
+MaxDistance: 10000
+
+# Set Amount Of Player Houses
+
+HouseAmount: 5
+
+##################
+##Command On/Off## 
+##################
+
+
+## Teleport Commands ##
+
+
+# Enables All Teleport Commands
+# Eg; true = On / false = off
+TeleportsEnabled: true
+
+# Toggles tpme Command
+# Eg; true = On / false = off
+
+TpmeEnabled: true
+
+# Toggles goback Command
+# Eg; true = On / false = off
+
+GobackEnabled: true
+
+# Toggles tpdeath Command
+# Eg; true = On / false = off
+
+TpdeathEnabled: true
+
+# Toggles coords Command
+# Eg; true = On / false = off
+
+CoordsEnabled: true
+
+# Toggles tmp Command
+# Eg; true = On / false = off
+
+TmpEnabled: true
+
+# Toggles tptemp Command
+# Eg; true = On / false = off
+
+TPTempEnabled: true
+
+# Toggles savetemptp Command
+# Eg; true = On / false = off
+SaveTmpTpEnabled: true
+
+
+# Toggles tpme tpa Command
+# Eg; true = On / false = off
+TpaEnabled: true
+
+## Home Commands ##
+
+
+# Enables The Whole Set Of Home Commands
+# Eg; true = On / false = off
+HomesEnabled: true
+
+# Toggles sethome Command
+# Eg; true = On / false = off
+SetHomeEnabled: true
+
+# Toggles home Command
+# Eg; true = On / false = off
+GoHomeEnabled: true
+
+# Toggles delete home command
+# Eg; true = On / false = off
+DelHomeEnabled: true
+
+
+## Warp Commands ##
+
+
+# Enables The Whole Set Of Warp Commands
+# Eg; true = On / false = off
+WarpsEnabled: true
+
+# Toggles setwarp command
+# Eg; true = On / false = off
+SetWarpEnabled: true
+
+# Toggles warp command
+# Eg; true = On / false = off
+GoWarpEnabled: true
+
+## Misc Commands ##
+
+# Toggles cfgreload command
+# Eg; true = On / false = off
+CFGReloadEnabled: true
+
+
+#################
+##Chat Messages##
+#################
+
+#######################
+## Teleport Messages ##
+#######################
+
+# Displays How Far A User Has Teleported
+# Eg; Teleport Successful, You have travelled "[Insert Number]" Blocks Away From Your Previous Location.
+
+TeleportDistance: true
+
+# Displays Teleport Success / Failure When Going Back To A Previous location
+# Eg; Teleport Successful, You have travelled back to your original location.
+# Eg; You have no previous teleport locations.
+
+DisplaySuccess: true
+
+# Tells Player Upon Death That Their Location Has Been Saved
+# Eg; Your death location has been saved, do /tpdeath to retrun to it.
+
+AnnounceDeathloc: true
+
+# Disaplays Death Location Success / Failure
+# Eg; Returned to death location.
+# Eg; You have no previous death locations.
+
+DisplayDeathloc: true
+
+# Disaplays Players Coordinates & Biome
+# Eg; [X],[Y],[Z],[Biome]
+
+DisplayCoords: true
+
+# Display Message For Temporary Location Save
+
+TmpSaved: true
+
+# Display Message For Temporary Teleport Used
+
+TPTemp: true 
+
+#####################################
+##// Displays Safe Teleport Message##
+#####################################
+##// SafeTeleport: true            ##
+#####################################
+
+###################
+## Home Messages ##
+###################
+
+# Displays Message For Set Home
+
+DisplayHomeSet: true
+
+# Displays Message When Player Has No Home
+
+NoHome: true
+
+# Displays Message When Player Has Gone Home
+
+GoHome: true
+
+# Displayed Message When Home Has Been Deleted
+
+DelHome: true
+
+
+###################
+## Warp Messages ##
+###################
+
+# Displays Warp Set Message
+DisplayWarpSet: true
+
+# Disaplays Message When Player Has Warped
+
+GoWarp: true
+
+# Displayes Message When Player Has No Warp Selected
+
+NoWarp: true
+
+# Displayes Message When Warp Has Been Deleted
+
+DelWarp: true
+
+
+###################
+## Misc Messages ##
+###################
+
+# Displays Update Warning Message When Player [With Perms] Connects
+
+DisplayUpdateWarning: true
+
+###############
+##Permissions##
+###############
+
+# player.TPME
+
+# Allows The Player To Use /tpme
+# To Tp To A Random location
+
+# player.GoBack
+
+# Allows The Player To Use /goback
+# To Tp Back To Their Last Location
+
+# player.TpDeath
+
+# Allows The Player To Use /tpdeath
+# To Tp To Their Death Location
+
+# player.Coords
+
+# Allows The Player To Use /coords
+# To View Their Coords & Biome
+
+# player.TMP
+
+# Allows The Player To Use /tmp
+# To Create A Temporary Teleport
+
+# player.TPTemp
+
+# Allows The Player To Use /tptemp
+# To Teleport To Their Temporary Teleport
+
+# player.SetHome
+
+# Allows Player To Use /sethome
+# To Create A New Home Location
+
+# player.GoHome
+
+# Allows Player To Use /home
+# To Return To Their Home Location
+
+# player.ConfigReload
+
+# Allows Player To Use /cfgreload
+# To Reload The Main Config File
+
+# player.SetWarp
+
+# Allows Player To Set Warp Location
+
+# player.GoWarp
+
+# Allows Player To Warp To Defined Locations
+
+# player.UpdateWarning
+
+# Notifies Player To Renew Configs After Update
+
+# player.ListHomes
+
+# Allows Player To List Their Houses
+
+# player.ListWarps
+
+# Allows Player To List Warps
